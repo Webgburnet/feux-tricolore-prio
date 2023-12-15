@@ -3,7 +3,6 @@ radio.onReceivedString(function (receivedString) {
 })
 let Data = ""
 radio.setGroup(1)
-let Prioritaire = -1
 let Etat = 0
 let savetime = control.millis()
 basic.forever(function () {
